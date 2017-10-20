@@ -5,14 +5,80 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
   <ion-navbar>
-    <ion-title>FairOrFoul</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Equipment and Role</ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
 <ion-content padding>
-
+  <div class="content">
+    <h2>Fair or Foul</h2>
+    <p><span style="font-weight: bold;">The position of the ball</span> is the deciding factor in the ‘fair’ or ‘foul’ call, <span style="font-weight: bold;">not the
+position of the fielder</span>. Any part of the line and the base is considered fair territory.
+There are three main cases to consider: balls on the infield, balls in the outfield, and
+balls that bounce over a base.</p>
+    <img src="../assets/img/fair_or_foul.jpg" alt="fair_or_foul">
+    <p>A fair ball must:</p>
+    <ul>
+      <li><p>Settle in fair territory between 1st and 3rd bases, or</p></li>
+      <li><p>Bounce past 3rd or 1st base in fair territory, or</p></li>
+      <li><p>Bounce over first or third base, or</p></li>
+      <li><p>Fall fair beyond 1st or 3rd base on a fly ball, or</p></li>
+      <li><p>Be first touched on or over fair territory.</p></li>
+    </ul>
+    <p><span style="font-weight: bold;">Fair territory</span> is the area within foul lines. <span style="font-weight: bold;">Foul territory</span> is the area outside the
+  foul lines. The line is considered in fair territory so the entire ball must be outside the
+  lines to be foul.</p>
+    <p>Note: If a fielder is standing in foul territory and touches the ball whilst over fair
+  territory, it is a fair ball. Likewise, if a fielder is standing in fair territory and touches
+  the ball over foul territory, it is a foul ball.</p>
+    <h3>Other rules relating to foul balls</h3>
+    <ul>
+      <li><p>On a foul, the ball is usually dead. Runners may not advance and cannot be put
+out.</p></li>
+      <li><p>However, if a foul ball is caught, the batter is out and the ball is alive. Runners can
+advance and can be put out.</p></li>
+      <li><p>A foul ball is a strike when the batter has less than two strikes</p></li>
+      <li><p>Once there are two strikes on the batter, a foul ball is not a strike</p></li>
+    </ul>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <img src="../assets/img/fair_or_foul_2.jpg" alt="fair_or_foul_2" />
+        </ion-col>
+        <ion-col col-8>
+          <h3>Fair ball signal</h3>
+          <ul>
+            <li><p>A fair ball should be signalled when the ball lands, or is
+first touched within a metre of the foul lines</p></li>
+            <li><p>'Fair ball' is signalled by extending your arm straight out
+from the shoulder and horizontal to the ground toward
+the infield</p></li>
+          </ul>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <img src="../assets/img/fair_or_foul_3.jpg" alt="fair_or_foul_3" />
+        </ion-col>
+        <ion-col col-8>
+          <h3>Foul ball signal</h3>
+          <ul>
+            <li><p>A foul ball is a legally batted ball that settles in foul
+territory between home and 1st base or between home
+and 3rd base, bounds past 1st or 3rd base in foul territory,
+or first touches foul territory beyond 1st or 3rd base</p></li>
+            <li><p>'Foul ball' is signalled by raising both arms above the
+head and calling in a loud and clear voice, 'foul ball'</p></li>
+          </ul>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
 </ion-content>
