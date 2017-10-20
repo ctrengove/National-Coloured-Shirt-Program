@@ -1,0 +1,24 @@
+import { Component } from '@angular/core';
+import { NavController, NavParams } from 'ionic-angular';
+
+/**
+ * Generated class for the TheSafeSignalPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+
+@Component({
+  selector: 'page-the-safe-signal',
+  templateUrl: 'the-safe-signal.html',
+})
+export class TheSafeSignalPage {
+
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad TheSafeSignalPage');
+  }
+
+}
