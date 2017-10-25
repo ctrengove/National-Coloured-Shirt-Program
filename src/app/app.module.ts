@@ -17,6 +17,7 @@ import { TheTwoUmpireSystemPage } from '../pages/the-two-umpire-system/the-two-u
 import { ThreeBasicPrinciplesPage } from '../pages/three-basic-principles/three-basic-principles';
 import { CommunicationPage } from '../pages/communication/communication';
 import { CrewSignalsPage } from '../pages/crew-signals/crew-signals';
+import { ImagePage } from '../pages/image/image';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -37,7 +38,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TheTwoUmpireSystemPage,
     ThreeBasicPrinciplesPage,
     CommunicationPage,
-    CrewSignalsPage
+    CrewSignalsPage,
+    ImagePage
   ],
   imports: [
     BrowserModule,
@@ -59,7 +61,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TheTwoUmpireSystemPage,
     ThreeBasicPrinciplesPage,
     CommunicationPage,
-    CrewSignalsPage
+    CrewSignalsPage,
+    ImagePage
   ],
   providers: [
     StatusBar,

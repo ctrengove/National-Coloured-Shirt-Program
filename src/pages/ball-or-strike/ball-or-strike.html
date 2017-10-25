@@ -20,7 +20,9 @@
     <ion-grid>
       <ion-row>
         <ion-col col-4>
-          <img src="../assets/img/ball_or_strike_1.jpg" alt="ball_or_strike" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/ball_or_strike_1.jpg" alt="ball_or_strike" />
+          </a>
         </ion-col>
         <ion-col col-8>
           <p style="margin-top: 0;">A strike occurs when the batter swings at, and misses the pitch, or
@@ -38,13 +40,19 @@ batter assumes their natural batting stance.</p>
     <ion-grid>
       <ion-row>
         <ion-col>
-          <img src="../assets/img/ball_or_strike_2.jpg" alt="ball_or_strike_2" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/ball_or_strike_2.jpg" alt="ball_or_strike_2" />
+          </a>
         </ion-col>
         <ion-col>
-          <img src="../assets/img/ball_or_strike_3.jpg" alt="ball_or_strike_3" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/ball_or_strike_3.jpg" alt="ball_or_strike_3" />
+          </a>
         </ion-col>
         <ion-col>
-          <img src="../assets/img/ball_or_strike_4.jpg" alt="ball_or_strike_4" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/ball_or_strike_4.jpg" alt="ball_or_strike_4" />
+          </a>
         </ion-col>
       </ion-row>
     </ion-grid>
