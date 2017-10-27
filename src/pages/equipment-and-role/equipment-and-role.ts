@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { ModalController, NavParams } from 'ionic-angular';
+import { ModalController, ViewController } from 'ionic-angular';
 
 import { ImagePage } from '../image/image';
 /**
@@ -24,7 +24,7 @@ export class EquipmentAndRolePage {
   }
 
   imagePopup() {
-    let image = this.modalCtrl.create(ImagePage, { 'url': '../assets/img/equipment_and_role.jpg' });
+    let image = this.modalCtrl.create(ImagePage, { 'url': event.toElement.src });
     image.present();
   }
 

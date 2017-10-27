@@ -20,10 +20,18 @@
       <ion-grid>
         <ion-row>
           <ion-col col-4>
-            <img src="../assets/img/safe_or_out_1.jpg" alt="safe_or_out_1" />
-            <img src="../assets/img/safe_or_out_2.jpg" alt="safe_or_out_2" />
-            <img src="../assets/img/safe_or_out_3.jpg" alt="safe_or_out_3" />
-            <img src="../assets/img/safe_or_out_4.jpg" alt="safe_or_out_4" />
+            <a (click)="imagePopup($event)">
+              <img src="../assets/img/safe_or_out_1.jpg" alt="safe_or_out_1" />
+            </a>
+            <a (click)="imagePopup($event)">
+              <img src="../assets/img/safe_or_out_2.jpg" alt="safe_or_out_2" />
+            </a>
+            <a (click)="imagePopup($event)">
+              <img src="../assets/img/safe_or_out_3.jpg" alt="safe_or_out_3" />
+            </a>
+            <a (click)="imagePopup($event)">
+              <img src="../assets/img/safe_or_out_4.jpg" alt="safe_or_out_4" />
+            </a>
           </ion-col>
           <ion-col col-8>
             <h3>The batter is out when…</h3>
