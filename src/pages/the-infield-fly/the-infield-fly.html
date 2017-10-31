@@ -27,7 +27,9 @@ the ground.</p>
     <ion-grid>
       <ion-row>
         <ion-col col-4>
-          <img src="../assets/img/the_infield_fly_combined.jpg" alt="the_infield_fly_combined" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/the_infield_fly_combined.jpg" alt="the_infield_fly_combined" />
+          </a>
         </ion-col>
         <ion-col col-8>
           <ul class="list-container">
@@ -51,7 +53,9 @@ umpire will then signal 'foul ball'</p></li>
     <ion-grid>
       <ion-row>
         <ion-col col-2>
-          <img src="../assets/img/the_infield_fly_3.jpg" alt="the_infield_fly_3" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/the_infield_fly_3.jpg" alt="the_infield_fly_3" />
+          </a>
         </ion-col>
         <ion-col col-10>
           <h3>The infield fly assist</h3>
