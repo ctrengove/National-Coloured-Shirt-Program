@@ -15,6 +15,7 @@ import { ImagePage } from '../image/image';
   templateUrl: 'equipment-and-role.html',
 })
 export class EquipmentAndRolePage {
+  url = '';
 
   constructor(public modalCtrl: ModalController, public navCtrl: NavController, public navParams: NavParams) {
   }

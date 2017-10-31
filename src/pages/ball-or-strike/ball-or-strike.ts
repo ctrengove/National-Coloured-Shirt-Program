@@ -16,19 +16,12 @@ import { ImagePage } from '../image/image';
   templateUrl: 'ball-or-strike.html',
 })
 export class BallOrStrikePage {
-  url = '';
 
-  constructor(public modalCtrl: ModalController, public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BallOrStrikePage');
-  }
-
-  imagePopup(event) {
-
-    let image = this.modalCtrl.create(ImagePage, { 'url': event.toElement.src });
-    image.present();
   }
 
 }
