@@ -21,10 +21,14 @@
     <ion-grid>
       <ion-row>
         <ion-col>
-          <img src="../assets/img/communication_1.jpg" alt="communication_1" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/communication_1.jpg" alt="communication_1" />
+          </a>
         </ion-col>
         <ion-col>
-          <img src="../assets/img/communication_2.jpg" alt="communication_2" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/communication_2.jpg" alt="communication_2" />
+          </a>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -38,7 +42,9 @@ special rules or game conditions, and to confirm team line-ups.</p>
     <ion-grid>
       <ion-row>
         <ion-col>
-          <img src="../assets/img/communication_3.jpg" alt="communication_3">
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/communication_3.jpg" alt="communication_3">
+          </a>
         </ion-col>
         <ion-col>
           <h3>Giving the count</h3>

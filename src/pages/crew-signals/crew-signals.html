@@ -20,7 +20,9 @@
     <ion-grid>
       <ion-row>
         <ion-col col-3>
-          <img src="../assets/img/crew_signals_1.jpg" alt="crew_signals_1" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/crew_signals_1.jpg" alt="crew_signals_1" />
+          </a>
         </ion-col>
         <ion-col col-9>
           <h3>Indicating the outs</h3>
@@ -36,7 +38,9 @@ the base umpire responds.</p>
     <ion-grid>
       <ion-row>
         <ion-col col-3>
-          <img src="../assets/img/crew_signals_2.jpg" alt="crew_signals_2" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/crew_signals_2.jpg" alt="crew_signals_2" />
+          </a>
         </ion-col>
         <ion-col col-9>
           <h3>Potential infield fly</h3>
@@ -51,7 +55,9 @@ outs (zero or one).</p>
     <ion-grid>
       <ion-row>
         <ion-col col-5>
-          <img src="../assets/img/crew_signals_combined.jpg" alt="crew_signals_combined" />
+          <a (click)="imagePopup($event)">
+            <img src="../assets/img/crew_signals_combined.jpg" alt="crew_signals_combined" />
+          </a>
         </ion-col>
         <ion-col col-7>
           <h3>Requesting the count</h3>

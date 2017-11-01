@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { ModalController, ViewController } from 'ionic-angular';
 
+import { ImagePage } from '../image/image';
 /**
  * Generated class for the MakingADecisionPage page.
  *
@@ -13,12 +15,18 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'making-a-decision.html',
 })
 export class MakingADecisionPage {
+  url = '';
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public modalCtrl: ModalController, public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MakingADecisionPage');
+  }
+
+  imagePopup() {
+    let image = this.modalCtrl.create(ImagePage, { 'url': event.toElement.src });
+    image.present();
   }
 
 }
