@@ -25,7 +25,8 @@ export class TheInfieldFlyPage {
   }
 
   imagePopup() {
-    let image = this.modalCtrl.create(ImagePage, { 'url': event.target.src });
+    let imageinfo: any = event.target;
+    let image = this.modalCtrl.create(ImagePage, { 'url': imageinfo.src });
     image.present();
   }
 
