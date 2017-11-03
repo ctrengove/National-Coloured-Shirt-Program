@@ -23,9 +23,9 @@ export class ThreeBasicPrinciplesPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ThreeBasicPrinciplesPage');
   }
-  
+
   imagePopup() {
-    let image = this.modalCtrl.create(ImagePage, { 'url': event.toElement.src });
+    let image = this.modalCtrl.create(ImagePage, { 'url': event.target.src });
     image.present();
   }
 

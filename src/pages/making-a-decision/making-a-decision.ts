@@ -25,7 +25,7 @@ export class MakingADecisionPage {
   }
 
   imagePopup() {
-    let image = this.modalCtrl.create(ImagePage, { 'url': event.toElement.src });
+    let image = this.modalCtrl.create(ImagePage, { 'url': event.target.src });
     image.present();
   }
 
