@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { ModalController, ViewController } from 'ionic-angular';
+import { ModalController } from 'ionic-angular';
 
 import { ImagePage } from '../image/image';
 

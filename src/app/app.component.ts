@@ -17,7 +17,6 @@ import { TheTwoUmpireSystemPage } from '../pages/the-two-umpire-system/the-two-u
 import { ThreeBasicPrinciplesPage } from '../pages/three-basic-principles/three-basic-principles';
 import { CommunicationPage } from '../pages/communication/communication';
 import { CrewSignalsPage } from '../pages/crew-signals/crew-signals';
-import { ImagePage } from '../pages/image/image';
 
 @Component({
   templateUrl: 'app.html'
