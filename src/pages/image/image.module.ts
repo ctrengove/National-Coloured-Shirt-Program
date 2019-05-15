@@ -9,5 +9,8 @@ import { ImagePage } from './image';
   imports: [
     IonicPageModule.forChild(ImagePage),
   ],
+  exports: [
+    ImagePage
+  ]
 })
 export class ImagePageModule {}

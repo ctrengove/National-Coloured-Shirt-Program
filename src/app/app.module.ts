@@ -18,6 +18,7 @@ import { ThreeBasicPrinciplesPage } from '../pages/three-basic-principles/three-
 import { CommunicationPage } from '../pages/communication/communication';
 import { CrewSignalsPage } from '../pages/crew-signals/crew-signals';
 import { ImagePage } from '../pages/image/image';
+import { ImagePageModule } from '../pages/image/image.module';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -39,11 +40,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ThreeBasicPrinciplesPage,
     CommunicationPage,
     CrewSignalsPage,
-    ImagePage
+    // ImagePage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    ImagePageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
