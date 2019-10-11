@@ -1,0 +1,9 @@
+{
+  "ide-helper": {
+    "addToGitignore": true,
+    "__internal": {
+      "lastQuasarVersion": "1.2.0",
+      "lastIdeHelperVersion": "1.0.0-alpha.0"
+    }
+  }
+}
