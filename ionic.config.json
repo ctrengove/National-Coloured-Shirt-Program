@@ -1,7 +1,0 @@
-{
-  "name": "National Coloured Shirt Program",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
