@@ -27,6 +27,11 @@
             <q-item-label>Equipment and Role</q-item-label>
           </q-item-section>
         </q-item>
+        <q-item clickable :to="{ name: 'ball-strike' }">
+          <q-item-section>
+            <q-item-label>Ball or Strike</q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
