@@ -42,7 +42,7 @@
         </ul>
       </div>
     </div>
-    <div class="row">
+    <div class="row q-mt-md">
       <div class="col-4">
         <clickable-image src="fair_or_foul_3.jpg" alt="Foul ball signal" />
       </div>
