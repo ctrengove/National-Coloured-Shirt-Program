@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <q-img :src="`statics/img/${src}`" :alt="alt" @click="showDialog = true"/>
+  <div :class="{ 'q-mr-sm': !noMargin }" :style="{ 'flex-basis': scale }" >
+    <q-img :src="`statics/img/${src}`" :alt="alt" @click="showDialog = true" />
     <q-dialog
       v-model="showDialog"
     >
@@ -19,7 +19,12 @@
 <script>
 export default {
   name: 'ClickableImage',
-  props: ['src', 'alt'],
+  props: {
+    src: String,
+    alt: String,
+    noMargin: { type: Boolean, default: false },
+    scale: { type: String, default: 'auto' }
+  },
   data () {
     return {
       showDialog: false

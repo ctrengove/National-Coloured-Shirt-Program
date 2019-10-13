@@ -13,10 +13,10 @@
         </ul>
       </div>
       <div class="col">
-        <clickable-image src="equipment_and_role.jpg" alt="Protective equipment" />
+        <clickable-image src="equipment_and_role.jpg" alt="Protective equipment" no-margin />
       </div>
     </div>
-    <p>Base umpires start near the bases, and are responsible for making safe and out calls at the bases.
+    <p class="q-mt-md">Base umpires start near the bases, and are responsible for making safe and out calls at the bases.
       They also need appropriate footwear.</p>
     <p>All umpires should carry a ball/strike/out counter ("clicker"), which they operate with their left hand.</p>
     <section-header title="Beginner umpire" />

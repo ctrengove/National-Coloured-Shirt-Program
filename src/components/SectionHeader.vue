@@ -14,5 +14,7 @@ h3
   color: $ncsp-color
   font-size: 20px
   font-weight: bold
-  margin: 0
+  margin-top: 0
+  margin-bottom: 10px
+  line-height: 1.5rem
 </style>

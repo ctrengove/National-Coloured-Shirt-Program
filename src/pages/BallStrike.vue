@@ -3,7 +3,7 @@
     <page-header :title="title" />
     <div class="row">
       <div class="col-4">
-        <clickable-image src="ball_or_strike_1.jpg" alt="The Strike Zone" class="q-mr-sm" />
+        <clickable-image src="ball_or_strike_1.jpg" alt="The Strike Zone" />
       </div>
       <div class="col">
         <p class="q-mt-none">A strike occurs when the batter swings at, and misses the pitch, or when the pitch passes
@@ -16,17 +16,17 @@
       batter’s knees; and any part of the ball can pass over any part of the home plate.</p>
     <section-header title="Calling balls and strikes" />
     <div class="row">
-      <div class="col-4">
-        <clickable-image src="ball_or_strike_2.jpg" alt="Tracking the pitch" class="q-mr-sm" />
+      <div class="col">
+        <clickable-image src="ball_or_strike_2.jpg" alt="Tracking the pitch" />
       </div>
-      <div class="col-4">
-        <clickable-image src="ball_or_strike_3.jpg" alt="Preparing to give the signal" class="q-mr-sm" />
+      <div class="col">
+        <clickable-image src="ball_or_strike_3.jpg" alt="Preparing to give the signal" />
       </div>
-      <div class="col-4">
-        <clickable-image src="ball_or_strike_4.jpg" alt="Signalling a strike" class="q-mr-sm" />
+      <div class="col">
+        <clickable-image src="ball_or_strike_4.jpg" alt="Signalling a strike" />
       </div>
     </div>
-    <ul>
+    <ul class="q-mt-md">
       <li>Bend the knees until the eyes are level with the top of the strike zone. Allow the pitch to cross home plate.
         Do not make a call until the catcher has caught the ball, then give a brisk verbal call of ‘strike’ or ‘ball’.</li>
       <li>To signal a strike, stand and bring your left hand into your body. Raise your right arm to shoulder height
