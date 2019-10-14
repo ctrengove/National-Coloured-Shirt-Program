@@ -1,0 +1,10 @@
+{
+  "appId": "com.softballaustralia.communityumpire",
+  "appName": "Community Umpire Program",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www",
+  "server": {
+    "url": "http://10.1.1.30:8080"
+  }
+}

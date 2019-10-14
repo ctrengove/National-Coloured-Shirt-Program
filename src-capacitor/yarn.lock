@@ -31,6 +31,11 @@
   dependencies:
     tslib "^1.9.0"
 
+"@capacitor/ios@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-1.2.1.tgz#e1e9fe08319ed08ecf24622e842724357d0f3e45"
+  integrity sha512-AUUnvnAUomvviNPGX8kJbTjyA3hPyOpvZHbIA1VGiA864bNLsO3hkUnv6FTBF5/aKb5eCbj/y0CGmf947JzWGw==
+
 ansi-escapes@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"
