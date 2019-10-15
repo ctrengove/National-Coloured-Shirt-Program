@@ -9,7 +9,7 @@ export default {
   name: 'App',
   preFetch ({ store }) {
     if (process.env.DEV) {
-      console.log('App preFetch() called')
+      // console.log('App preFetch() called')
     }
     return store.commit('settings/setPageTitle', { title: '' })
   }

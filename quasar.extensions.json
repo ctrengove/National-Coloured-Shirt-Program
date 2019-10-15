@@ -26,7 +26,14 @@
           "backgroundColor": "#ffffff"
         }
       },
-      "build": {}
+      "build": {
+        "capacitor": {
+          "iconHash": "77413bc08de2041893dd7e889e9259b6",
+          "splashscreenHash": "f0f282f00e30552a5ba7528e44fe2c5e",
+          "splashscreenType": "pure",
+          "backgroundColor": "#ffffff"
+        }
+      }
     }
   }
 }
